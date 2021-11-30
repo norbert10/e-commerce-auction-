@@ -1,0 +1,75 @@
+.home-page{
+margin: 20px;
+position: relative;
+}
+.arrows{
+    position: absolute;
+    top: 300px;
+}
+
+.arrows .right{
+    margin-left: 50%;
+}
+.carImage{
+    width: 100%;
+    height: 700px;
+    margin: 10px;
+    text-align: center;
+}
+
+.home-image{
+    width: 70%;
+    text-align: center;
+}
+
+.mission-vision{
+    width: 45%;
+    text-align: start;
+    margin: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.logo-image{
+    border-radius: 50%;
+    width: 30%;
+}
+
+.logo-div{
+    text-align: center;
+}
+
+.mission-vision h2{
+    background-color: brown;
+    color: white;
+    max-width: 30%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.about-home{
+    text-align: center;
+    line-height: 1.6;
+}
+
+.cats img{
+    width: 100%;
+}
+
+.categories-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.categories-flex .cats{
+    width: 30%;
+}
+
+.mycategories{
+    text-align: left;
+}
+
+.mycategories h2, .about-home h2{
+    color: green;
+}

@@ -1,0 +1,57 @@
+.category-select{
+    width: 200px;
+}
+.item-description{
+    width: 100%;
+}
+.item-details{
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+}
+select, input{
+    width: 500px;
+    height: 30px;
+    margin: 10px;
+}
+.submission-btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.submission-btns input{
+    margin: 15px;
+    
+}
+.send-btn, .cancel-btn{
+    width: 70px;
+}
+.item-description input, .item-description #category-select{
+    margin: 10px;
+    background-color: #e3eaf4;
+    color: black;
+    font-size: 23px;
+    height: 40px;
+}
+.submission-btns .send-btn:hover, .submission-btns .cancel-btn:hover{
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+    transform: scale(1.5);
+}
+
+
+/* 
+.submission-btns .send-btn, .submission-btns .cancel-btn{
+    text-transform: uppercase;
+
+}
+
+.item-description #img:hover{
+    cursor: pointer;
+}
+.form{
+    width: 80%;
+    height: 500px;
+    margin-left: 0;
+} */

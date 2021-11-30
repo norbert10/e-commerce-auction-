@@ -1,0 +1,51 @@
+.contact-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.heading{
+    color: green;
+}
+.contact-content{
+    text-align: left;
+}
+
+.my-contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 26px;
+}
+
+.social_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 26px;
+}
+
+.my-contacts p:hover, .social_links p:hover{
+    cursor: pointer;
+}
+
+.my-contacts em, .social_links em{
+    background-color: aliceblue;
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.contacts-div h2, .social-sites h2{
+    color: teal;
+    margin: 0;
+    padding: 0;
+}
+
+.social_links p, .my-contacts p{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts-div, .social-sites{
+    margin: 25px;
+}

@@ -1,0 +1,37 @@
+.nav-container{
+    background-color: teal;
+    /* background-color: rgb(37, 150, 190); */
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.navs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navs .links{
+    color: white;
+    width: auto;
+    padding: 5px 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navs .links:hover{
+    background-color: black;
+    transform: scale(1.2);
+}
+.bar-icon{
+    width: 50%;
+    text-align: start;
+    font-size: 24px;
+}
+
+

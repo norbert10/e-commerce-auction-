@@ -1,0 +1,21 @@
+.about-us{
+    width: 70%;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+/* .about p{
+    text-align: left;
+} */
+
+.do{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 20px;
+}
+
+.do img{
+    width: 20%;
+    height: auto;
+}
